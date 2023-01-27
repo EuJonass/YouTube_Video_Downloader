@@ -21,7 +21,7 @@ print(f'Autor: {yt.author}')
 yd = yt.streams.get_lowest_resolution()
 
 # Caminha para aonde o Download sera enviado
-yd.download("C:\\users\\jonas\\PycharmProjects\\TextConvert\\Videos")
+yd.download("C:\\users\\jonas\\PycharmProjects\\PythonProjects\\Videos")
 
 # Mensagem final
-messagebox.showinfo('Menssagem', 'Dowload Concluído')
+messagebox.showinfo('Menssagem', 'Download Concluído')
